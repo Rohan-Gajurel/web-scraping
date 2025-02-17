@@ -45,7 +45,9 @@ def scrape_books(url):
         dict_data={"Title":title,"Currency":currency,"price":price}
         list_data.append(dict_data)
     return list_data
-       
-books=scrape_books(URL)
-with(open("books.json","w",encoding="utf=8") as f):
-    json.dump(books,f,indent=2,ensure_ascii=False)
+
+def main():   
+    books=scrape_books(URL)
+    with(open("books.json","w",encoding="utf=8") as f):
+        json.dump(books,f,indent=2,ensure_ascii=False)
+main()
