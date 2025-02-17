@@ -13,6 +13,11 @@
 # git add .
 # git commit -m "Your message"
 
+# 1. code Change
+# 2. git add . 
+# 3. git commit -m ""
+# 4. git push
+
 import requests
 from bs4 import BeautifulSoup
 import json
