@@ -3,6 +3,16 @@
 # python -m pip install beautifulsoup4
 # parse html
 
+# install git
+# create repository in github
+
+# go to git bash
+# git init
+# git status
+# git diff
+# git add q.
+# git commit -m "Your message"
+
 import requests
 from bs4 import BeautifulSoup
 import json
