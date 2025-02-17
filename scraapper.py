@@ -10,7 +10,7 @@
 # git init
 # git status
 # git diff
-# git add q.
+# git add .
 # git commit -m "Your message"
 
 import requests
