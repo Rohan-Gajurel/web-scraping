@@ -1,22 +1,4 @@
-# python -m pip install requests
-# get data from web in (HTML,json,xml) format
-# python -m pip install beautifulsoup4
-# parse html
 
-# install git
-# create repository in github
-
-# go to git bash
-# git init
-# git status
-# git diff
-# git add .
-# git commit -m "Your message"
-
-# 1. code Change
-# 2. git add . 
-# 3. git commit -m ""
-# 4. git push
 
 import requests
 from bs4 import BeautifulSoup
